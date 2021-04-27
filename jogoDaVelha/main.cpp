@@ -56,12 +56,12 @@ void show(int board[][3])
 {
     cout<<endl;
     for(int row=0; row<3; row++){
-        cout<<" "<<printBlock(board[row][0])<< "|";
-        cout<<" "<<printBlock(board[row][1])<< "|";
-        cout<<" "<<printBlock(board[row][2])<< endl;
+        cout<<"  "<<printBlock(board[row][0])<< " |";
+        cout<<"  "<<printBlock(board[row][1])<< " |";
+        cout<<"  "<<printBlock(board[row][2])<< endl;
 
         if(row!=2){
-            cout<<"____ _____ _____\n"<<endl;
+            cout<<" ___ ____ ___\n"<<endl;
         }
     }
 }
